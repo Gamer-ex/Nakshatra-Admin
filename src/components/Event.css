@@ -1,0 +1,327 @@
+.event{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/nk23-a5689.appspot.com/o/Main.png?alt=media&token=dbb94f93-83ed-46fb-83eb-fd1ad698eed7");
+    color: white;
+}
+.left{
+    flex: 0.3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left img{
+    max-width: 400px;
+    border-radius: 30px;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+.left img:hover{
+    transform: scale(1.08);
+    box-shadow: 5px 5px 150px 1px rgba(0,0,0,0.5);
+}
+.right{
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.details{
+    width: 80%;
+    height: 80%;
+    padding: 30px;
+    overflow-y: scroll;
+    backdrop-filter: blur(8px);
+    box-shadow: 5px 5px 150px 1px rgba(0,0,0,0.5);
+    border-radius: 20px;
+}
+.details .sub h1{
+    font-size: 50px;
+}
+
+.details .sub{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.id{
+    font-size: 18px;
+    display: flex;
+    gap: 15px;
+}
+.id strong {
+    background-color: #8c2725;
+    padding: 1px 10px 1px 10px;
+}
+.count{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.count strong{
+    color: green;
+    font-size: 40px;
+}
+.data-form{
+    display: flex;
+    flex-direction: column;
+}
+.data-form input,.small,textarea{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 20px;
+    outline: none;
+    background: rgba(255,255,255,0.6);
+    border: none;
+}
+.data-form .small{
+    width: 100px;
+}
+.data-form textarea{
+    padding: 20px;
+    min-width: 600px;
+    max-width: 750px;
+    min-height: 200px;
+    max-height: 400px;
+}
+.data-form label{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.data-form .button{
+    padding: 0;
+    background-color: #8c2725;
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 15px;
+    color: white;
+    font-size: 16px;
+    transition: all 0.2s ease-in;
+}
+.data-form .button:hover{
+    background-color: #fff;
+    color: #8c2725;
+    border: 1px solid #8c2725;
+}
+.prizes{
+    display: flex;
+    gap: 30px;
+}
+.view{
+    margin-left: 30px;
+    background-color: green;
+    border-radius: 15px;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    transition: all 0.2s ease-in;
+}
+.view:hover{
+    background-color: #fff;
+    color: #8c2725;
+    border: 1px solid #8c2725;
+}
+.list{
+    position: fixed;
+    height: 90%;
+    width: 90%;
+    left: 100px;
+    right: 50px;
+    overflow-y: scroll;
+    color: white;
+    top: 50px;
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0.95);
+    display: flex;
+    flex-direction: column;
+}
+.close{
+    height: 50px;
+    position: absolute;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #8c2725;
+    color: white;
+    font-size: 25px;
+    margin-left: 95%;
+    margin-top: 2%;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s ease-in;
+}
+.close:hover{
+    background-color: #fff;
+    color: #8c2725;
+}
+.refresh{
+    height: 50px;
+    position: absolute;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #8c2725;
+    font-size: 25px;
+    margin-left: 90%;
+    margin-top: 2%;
+    cursor: pointer;
+    border: 1px solid #8c2725;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in;
+}
+.refresh:hover{
+    background-color: #8c2725;
+}
+.export-button{
+    height: 50px;
+    position: absolute;
+    width: 150px;
+    border-radius: 20px;
+    background-color: green;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 79%;
+    margin-top: 2%;
+    cursor: pointer;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in;  
+}
+.export-button:hover{
+    background-color: #fff;
+    color: green;
+}
+.head{
+    font-size: 30px;
+    margin-top:30px ;
+    text-align: center;
+    font-weight: 600;
+}
+.reg-list{
+    margin: 40px;
+    text-align: center;
+    border-collapse:collapse ;
+    border-spacing: 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+th{
+    background-color: #8c2725;
+}
+th,td{
+    padding: 5px 12px;
+}
+tbody tr:nth-child(odd){
+    background-color: #EEEEEE;
+}
+.reg-list .tr-head{
+    color: white;
+    height:30px;
+}
+.reg-list tr{
+    background-color: white;
+    color: black;
+}
+.reg-list td{
+    height: 30px;
+}
+.list-mobile{
+    display: none;
+}
+.logout{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 50px;
+    width: 150px;
+    background-color: #8c2725;
+    color: white;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.2s ease-in;
+}
+.logout:hover{
+    background-color: #fff;
+    color: #8c2725;
+}
+
+@media screen and (max-width:720px) {
+    .event{
+        flex-direction: column;
+        background-image: none;
+        background-color: black;
+        height: fit-content;
+        width: 100vw;
+    }
+    .details .sub h1{
+        max-width: 270px;
+        font-size: 35px;
+        text-align: center;
+    }
+    .left img{
+        max-width: 250px;
+        margin-top: 100px;
+    }
+    .right .details .sub{
+        align-items: center;
+    }
+    .right .data-form{
+        align-items: center;
+    }
+    .count{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .count strong{
+        font-size: 80px;
+    }
+    .data-form input{
+        max-width: 270px;
+    }
+    .data-form textarea{
+        min-width: 250px;
+        max-width: 270px;
+        max-height: 300px;
+        min-height: 200px;
+    }
+    .logout{
+        width: 100px;
+        height: 35px;
+        font-size: 15px;
+    }
+    .view{
+        margin: 0;
+    }
+
+}
+@media screen and (max-width:1260px) and (min-width:720px){
+    .export-button{
+        margin-left: 74%;
+    }
+    .refresh{
+        margin-left: 89%;
+    }
+}

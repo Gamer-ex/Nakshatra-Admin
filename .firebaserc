@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "nk23-a5689"
+  },
+  "targets": {
+    "nk23-a5689": {
+      "hosting": {
+        "tr": [
+          "adminnk23"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

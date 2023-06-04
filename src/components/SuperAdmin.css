@@ -1,0 +1,59 @@
+.super{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: black;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/nk23-a5689.appspot.com/o/Main.png?alt=media&token=dbb94f93-83ed-46fb-83eb-fd1ad698eed7");
+}
+.panel{
+    width: 92%;
+    height: 92%;
+    background-color: transparent;
+    border-radius: 50px;
+    /* box-shadow: 5px 5px 150px 1px rgba(0,0,0,0.5);
+    backdrop-filter: blur(6px); */
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.panel .regs{
+    height: 80px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+}
+.regs p{
+    background-color: transparent;
+    font-size: 25px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.regs p strong{
+    color: green;
+    font-size: 40px;
+}
+
+.info{
+    display: flex;
+}
+.info table{
+    flex: 1;
+}
+.info .p2{
+    height: 100vh;
+    background-color: transparent;
+    box-shadow: 5px 5px 150px 1px rgba(0,0,0,0.5);
+    backdrop-filter: blur(6px);
+    margin-top: 40px;
+    border-radius: 5px;
+    padding: 20px;
+    flex: 1;
+}

@@ -1,0 +1,114 @@
+.online{
+    width: 100%;
+    height: 150vh;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/nk23-a5689.appspot.com/o/Group%2056.png?alt=media&token=6025878e-5dee-40e8-8183-304724237173");
+}
+.search{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.search p input{
+    height: 50px;
+    outline: none;
+    font-size: 25px;
+    width: 150px;
+    padding-left: 20px;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.8);
+    border: 1px solid #8c2725;
+    color: white;
+    text-transform: uppercase;
+}
+.search p{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 40px;
+}
+.search button{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 15px;
+    border: 1px solid green;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+.search button:hover{
+    background-color: #fff;
+    color: #8c2725;
+    border: 1px solid #8c2725;
+}
+.event-card{
+    width: 320px;
+    height: 450px;
+    background-color:rgba(255,255,255,0.1);
+    backdrop-filter: blur(5px);
+    box-shadow: 5px 5px 50px 10px rgba(0,0,0,0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.reg-events-list img{
+    width: 150px;
+    border-radius: 30px;
+}
+
+.reg-events-list{
+    display: grid;
+    place-items: center;
+    row-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.amt{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    padding: 7px 2px 7px 2px;
+}
+.ecard-top{
+    display: flex;
+    gap: 50px;
+}
+.amt span{
+    font-weight: bold;
+    color: green;
+    font-weight: 40px;
+}
+
+.ecard-bottom{
+    color: white;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.eid{
+    background-color: #8c2725;
+    width: fit-content;
+    padding: 2px 7px 2px 7px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.ecard-bottom p{
+    font-size: 16px;
+}
+.ecard-bottom p span{
+    color: green;
+    font-weight: 600;
+    font-size: 18px;
+}
